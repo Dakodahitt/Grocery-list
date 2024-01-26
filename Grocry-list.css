@@ -1,0 +1,36 @@
+html{background-color: blue}
+article{ 
+    margin-left: 40.1%; margin-right: 40%;font-size: 30px; background-color: lightpink;}
+h1 { background-color: lightpink;
+    margin-top: 55px;
+    font-size: 25px;
+    width: 150px;
+    border: 5px solid red;
+    padding: 15px;
+    margin-left: 40.1%;}
+.container{display: flex;
+    justify-content: space-evenly; }
+ol:not(:only-child):first-child{ 
+    font-size: 20;
+    background-color: red;
+    width: fit-content;
+    border: 5px solid black;
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-left: 25px;
+    }
+
+ol:not(:first-child){
+    font-size: 20;
+    background-color: burlywood;
+    width: fit-content;
+    border: 5px solid black;
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+        
+    }
+
