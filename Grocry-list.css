@@ -7,7 +7,8 @@ article:not(:only-child):first-child{ background-color: pink;
     padding: 15px;
     border-radius: 15px;
     margin-left:40%;margin-right: 40%;font-size: 30px; background-color: lightpink;}
-h1 { background-color: lightpink;
+h1 { background-color: rgb(124, 70, 70);
+    color: white;
     margin-top: 55px;
     font-size: 25px;
     width: 150px;
@@ -39,7 +40,7 @@ ol:not(:first-child){
     padding-top: 10px;
     padding-bottom: 5px;
     border-radius: 15px;}
-article:not(:only-child){background-color: lightpink;
+article:not(:only-child){background-color: rgb(225, 127, 142);
     margin-top: 55px;
     font-size: 20px;
     width: 150px;
