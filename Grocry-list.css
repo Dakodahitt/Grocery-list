@@ -64,6 +64,6 @@ article:not(:only-child){background-color: lightpink;
     padding-right: 20px;
     padding-top: 10px;
     padding-bottom: 5px}
-    img{    width: fit-content;
-        border: 5px solid black;
-        border-radius: 15px;}
+img{width: fit-content;
+    border: 5px solid black;
+    border-radius: 15px;}
