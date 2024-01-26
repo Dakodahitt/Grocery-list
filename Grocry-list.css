@@ -17,7 +17,7 @@ h1 { background-color: lightpink;
     margin-left: 40.1%;}
 .container{display: flex;
     justify-content: space-evenly; }
-    {not, only_child lets you have one list be one color and then the other list}
+    {not, only_child lets you have one list be one color and then the other list in the html}
 ol:not(:only-child):first-child{ 
     font-size: 20;
     background-color: red;
