@@ -8,7 +8,9 @@ h1:not(:only-child){  background-color: pink;
     border-radius: 15px;
     font-size: 30px;
     display: inline-table;
-    justify-content: center}
+    justify-content: center;
+margin-right: 10px;
+margin-left: 10px;}
 ol:not(:only-child):first-child{ 
     font-size: 20;
     background-color: red;
