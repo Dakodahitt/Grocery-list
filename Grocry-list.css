@@ -4,11 +4,11 @@ h1:not(:only-child){  background-color: pink;
     font-size: 25px;
     max-height: 25%;
     border: 5px solid rgb(201, 185, 185);
-    padding: 5px;
+    padding: 10px;
     border-radius: 15px;
     font-size: 30px;
     display: inline-table;
-    justify-content: center;
+    justify-content: right;
 margin-right: 10px;
 margin-left: 10px;}
 ol:not(:only-child):first-child{ 
@@ -22,7 +22,7 @@ ol:not(:only-child):first-child{
     padding-bottom: 15px;
     border-radius: 15px;
      }
-ol:not(:first-child){
+ul{
         font-size: 20;
         background-color: burlywood;
         border: 5px solid black;
@@ -48,10 +48,10 @@ h2{ background-color: pink;
     border-radius: 15px;
     font-size: 30px;
     display: inline-table;
-    justify-content: center}}
+    justify-content: right}
 .content:not(:only-child){font-size: 20;
     background-color: rgb(159, 90, 0);
-    width: ;
+    width: fit-content;
     border: 5px solid black;
     padding-left: 25px;
     padding-right: 20px;
