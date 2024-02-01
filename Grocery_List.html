@@ -4,63 +4,74 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Grocry-list</title>
     <link rel="stylesheet" href="Grocry-list.css" />
+    <style>
+      html {
+        background-color: blue;
+      }
+    </style>
   </head>
+  <header>
+    <h1
+      class="all-pantry"
+      style="
+        color: pink;
+        border: 5px solid;
+        display: flex;
+        justify-content: center;
+        background-color: black;
+        font-size: 55px;
+      "
+    >
+      Grocery List
+    </h1>
+  </header>
   <body>
-    <article class="all-pantry">Grocery List</article>
-     <h1 class="Pantry">Pantry Items
-        <p>
-        <table><!-- Start of baking list.-->
-          <ol> Baking
-            <li>Flour</li>
-            <li>Suger</li>
-            <li>Salt</li>
-            <li>Baking soda</li>
-            <li>Baking powder</li>
-          </ol>
-        </p>
-        <!--End of baking list and start of spices list.-->
-        <p>
-        <ul>
-            Spices
-            <li>Pepper</li>
-            <li>Basil</li>
-            <li>Black Truffle Salt</li>
-            <li>Chai Tea</li>
-            <li>Cinnamon</li>
-          </ul>
-      
-          <img src="pantree.jpeg" alt="Pantry" />
-          <!-- End of pantry -->
-        </table>
-        </p>
-      </h1>
+    <section class="Table">
+      <h2 class="Pantry">Pantry Items</h2>
+      <!-- Start of baking list.-->
+      <h3>Baking</h3>
+      <ol>
+        <li>Flour</li>
+        <li>Suger</li>
+        <li>Salt</li>
+        <li>Baking soda</li>
+        <li>Baking powder</li>
+      </ol>
+      <!--End of baking list and start of spices list.-->
+      <h3>Spices</h3>
+      <ul>
+        <li>Pepper</li>
+        <li>Basil</li>
+        <li>Black Truffle Salt</li>
+        <li>Chai Tea</li>
+        <li>Cinnamon</li>
+      </ul>
 
-     <h2 >Fridge Items
-       
+      <img src="pantree.jpeg" alt="Pantry" />
+      <!-- End of pantry -->
+    </section>
+    <section class="Fridge">
+      <h2>Fridge Items</h2>
       <!-- Start of Cold side -->
-      <p>
-        <ol class="content">
-          Cold side
-          <li>Milk</li>
-          <li>Eggs</li>
-          <li>OJ</li>
-          <li>Soda</li>
-          <li>Cheese</li>
-        </ol>
-      </p>
-        <!-- End of Cold side start of freezer side -->
-        <p>
-          <ol class="Fridge">
-          freezer side
-          <li>Pizza</li>
-          <li>Baged ice</li>
-          <li>Ice cream</li>
-          <li>Frozen fruit</li>
-          <li>Meat</li>
-        </ol>
-        <img src="fr.jpeg" alt="Fridge" />
-        <!-- End of Grocry-lis and freezer side -->
-      </p>
-     </h2>
-    </body>
+      <h3> Cold side</h3>
+      <ol class="Cold-side">
+        <li>Milk</li>
+        <li>Eggs</li>
+        <li>OJ</li>
+        <li>Soda</li>
+        <li>Cheese</li>
+      </ol>
+      <!-- End of Cold side start of freezer side -->
+      <h3>freezer side</h3>
+      <ol class="freezer">
+        <li>Pizza</li>
+        <li>Baged ice</li>
+        <li>Ice cream</li>
+        <li>Frozen fruit</li>
+        <li>Meat</li>
+      </ol>
+      <img src="fr.jpeg" alt="Fridge" />
+      <!-- End of Grocry-lis and freezer side -->
+    </section>
+  </body>
 </html>
